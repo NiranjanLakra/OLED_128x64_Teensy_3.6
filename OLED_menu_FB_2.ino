@@ -175,7 +175,7 @@ int KB=0;
 int KB1=0;
 void key_handler(char KEY)
 {
-  if (KEY == 'M')
+  if (KEY == 'M' && pos1 != 79)
   {
     display.setTextColor(1);
     display.setTextSize(1);
